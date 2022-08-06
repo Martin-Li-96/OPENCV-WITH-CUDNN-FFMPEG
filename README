@@ -11,7 +11,7 @@ sudo dnf install -y epel-release git gcc gcc-c++ cmake3 qt5-qtbase-devel \
     boost boost-thread boost-devel gstreamer1-plugins-base
 
 
-mkdir -p ~/opencv_build && cd ~/opencv_build
+mkdir ~/opencv_build && cd ~/opencv_build
 git clone https://github.com/opencv/opencv.git
 git clone https://github.com/opencv/opencv_contrib.git
 cd ~/opencv_build/opencv && mkdir build && cd build
